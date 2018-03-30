@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://cabbywang.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -84,6 +84,17 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
+Plugins:
+- hexo-generator-feed
+- hexo-generator-sitemap
+#Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+#sitemap:
+sitemap:
+  path: sitemap.xml
 theme: next
 
 # Deployment
