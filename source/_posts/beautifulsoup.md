@@ -1,3 +1,9 @@
+---
+title: Beautifulsoup
+date: 2018-04-27 13:25:48
+tags: [python, beautifulsoup, html]
+---
+
 ***
 ## BeatifulSoup
 ### 基本使用
@@ -37,6 +43,7 @@ soup.title.name                 # 获取名称(通过标签获取标签名称)
 soup.new_string('',)
 soup.new_tag(''[,href='',])
 ````
+<!-- more -->
 
 Tag(Name, Attributes)
 ````python

@@ -1,3 +1,9 @@
+---
+title: python高阶函数Filter
+date: 2018-4-27 22:54:48
+tags: [python, 高阶函数, filter]
+---
+
 # filter函数
 filter(function, iterable)
 filter函数是python中的高阶函数,  第一个参数是一个筛选函数, 第二个参数是一个可迭代对象, 返回的是一个生成器类型, 可以通过next获取值. 这里大致讲述下原理, filter()把传入的function依次作用于iterable的每个元素, 满足条件的返回true, 不满足条件的返回false, 通过true还是false决定将该元素丢弃还是保留.
@@ -10,6 +16,9 @@ a = [1, 2, 3, 4, 5]
 list(filter(lambda x: x > 3, a))
 # [4, 5]
 ```
+
+<!-- more -->
+
 - 处理dict
 ```python
 # 字典(dict)
