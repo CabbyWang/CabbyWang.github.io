@@ -20,6 +20,8 @@ git commit --amend -m 'aa and bb'        # update commit summary
 git commit --amend -m --no-edit          # don't update commit summary
 ```
 
+<!-- more -->
+
 ## 修改历史提交中的`commit summary`
 
 ```bash
