@@ -41,3 +41,9 @@ git rebase --continue
 | git checkout | 丢去工作目录中对文件的更改 | 切换分支或切换到某个版本(commit ID) |
 | git revert   | 无                         | 在公共分支上回滚(生成一次提交)      |
 
+## 创建一个全新的分支
+```bash
+git checkout --orphan script  # 创建一个"孤儿"分支, 这个分支是独立的
+git rm rf .                   # 删除当前目录下除.git以外的文件
+```
+
