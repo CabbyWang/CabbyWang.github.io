@@ -101,5 +101,6 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/CabbyWang/CabbyWang.github.io.git
+  # repo: https://github.com/CabbyWang/CabbyWang.github.io.git
+  repo:root@202.182.109.125:cabbyw/Github/blog
   branch: master
